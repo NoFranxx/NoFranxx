@@ -2,9 +2,9 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("введите число A");
+        Console.WriteLine("введите число a");
         int a = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("введите число B");
+        Console.WriteLine("введите число b");
         int b = Convert.ToInt32(Console.ReadLine());
         float pow_ab = MathF.Pow(a, b);
 
